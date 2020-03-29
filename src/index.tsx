@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.scss'
-import App from '@/App'
-import * as serviceWorker from './serviceWorker'
+import Simulator from './components/Simulator/Simulator'
+import * as serviceWorker from './libs/serviceWorker'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Simulator />
   </React.StrictMode>,
   document.getElementById('root')
 )
