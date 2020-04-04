@@ -11,6 +11,8 @@ export default class GrowthRate {
     readonly charm: number
   ) {}
 
+  public static readonly SKILL_CORRECTION_VALUE = 20
+
   public static calculate(characterGrowthRate: GrowthRate, jobGrowthRate: GrowthRate): GrowthRate {
     return new GrowthRate(
       characterGrowthRate.hitPoint + jobGrowthRate.hitPoint,

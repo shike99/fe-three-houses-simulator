@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+.selectBox {
+  position: relative;
+  display: block;
+  border-radius: 8px;
+
+  select {
+    width: 100%;
+    min-width: calc(300px + 10vmin);
+    height: calc(60px + 1vw);
+    padding: 16px 20px;
+    font-size: calc(1.6rem + 0.2vw);
+    line-height: 1;
+    border: 0.1vw solid $borderColor;
+    appearance: none;
+
+    @media (max-width: 480px) {
+      border-width: 1px;
+    }
+  }
+
+  span {
+    position: absolute;
+    top: calc(20px + 0.5vw);
+    right: 20px;
+    pointer-events: none;
+    content: '';
+    border-top: 20px solid $accentColor;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+  }
+}

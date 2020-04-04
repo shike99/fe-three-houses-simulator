@@ -1,5 +1,7 @@
 @import-normalize;
 
+@import './styles/variables.scss';
+
 body {
   margin: 0;
   font-family:
@@ -16,14 +18,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+  color: $baseColor;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+dl,
+dd,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
 }

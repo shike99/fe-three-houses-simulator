@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.growthRate {
+  font-size: calc(1.4rem + 0.2vw);
+
+  li {
+    display: flex;
+  }
+
+  li + li {
+    margin-top: 12px;
+  }
+
+  dt {
+    display: flex;
+    justify-content: space-between;
+    width: calc(80px + 1vw);
+    margin-right: calc(20px + 1vw);
+    font-weight: bold;
+
+    &::after {
+      margin-left: 12px;
+      content: ':';
+    }
+  }
+}
+
+.breakdown {
+  margin-left: calc(8px + 0.5vw);
+  font-size: calc(1.2rem + 0.1vw);
+  color: $mutedColor;
+}
