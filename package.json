@@ -2,6 +2,7 @@
   "name": "fe-three-houses-simulator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shike99.github.io/fe-three-houses-simulator/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -24,12 +25,15 @@
     "lint": "eslint --ext .ts,.tsx,.js .",
     "lint:fix": "yarn lint --fix",
     "stylelint": "stylelint './**/*.{scss,css}'",
-    "stylelint:fix": "yarn stylelint --fix"
+    "stylelint:fix": "yarn stylelint --fix",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.10.1",
     "eslint-import-resolver-webpack": "^0.12.1",
     "eslint-plugin-prettier": "^3.1.2",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.9",
     "prettier": "^2.0.2",
