@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3b594fb.chunk.css",
-    "main.js": "/static/js/main.3021388e.chunk.js",
-    "main.js.map": "/static/js/main.3021388e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dfed46eb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dfed46eb.js.map",
-    "static/js/2.fbe3f512.chunk.js": "/static/js/2.fbe3f512.chunk.js",
-    "static/js/2.fbe3f512.chunk.js.map": "/static/js/2.fbe3f512.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.dcb11fe21375f1873f7105018e56d87a.js": "/precache-manifest.dcb11fe21375f1873f7105018e56d87a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.a3b594fb.chunk.css.map": "/static/css/main.a3b594fb.chunk.css.map",
-    "static/js/2.fbe3f512.chunk.js.LICENSE.txt": "/static/js/2.fbe3f512.chunk.js.LICENSE.txt"
+    "main.css": "/fe-three-houses-simulator/static/css/main.a3b594fb.chunk.css",
+    "main.js": "/fe-three-houses-simulator/static/js/main.38b9a015.chunk.js",
+    "main.js.map": "/fe-three-houses-simulator/static/js/main.38b9a015.chunk.js.map",
+    "runtime-main.js": "/fe-three-houses-simulator/static/js/runtime-main.2128c524.js",
+    "runtime-main.js.map": "/fe-three-houses-simulator/static/js/runtime-main.2128c524.js.map",
+    "static/js/2.fbe3f512.chunk.js": "/fe-three-houses-simulator/static/js/2.fbe3f512.chunk.js",
+    "static/js/2.fbe3f512.chunk.js.map": "/fe-three-houses-simulator/static/js/2.fbe3f512.chunk.js.map",
+    "index.html": "/fe-three-houses-simulator/index.html",
+    "precache-manifest.00698cab30de6cd0ab41963f35444a10.js": "/fe-three-houses-simulator/precache-manifest.00698cab30de6cd0ab41963f35444a10.js",
+    "service-worker.js": "/fe-three-houses-simulator/service-worker.js",
+    "static/css/main.a3b594fb.chunk.css.map": "/fe-three-houses-simulator/static/css/main.a3b594fb.chunk.css.map",
+    "static/js/2.fbe3f512.chunk.js.LICENSE.txt": "/fe-three-houses-simulator/static/js/2.fbe3f512.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dfed46eb.js",
+    "static/js/runtime-main.2128c524.js",
     "static/js/2.fbe3f512.chunk.js",
     "static/css/main.a3b594fb.chunk.css",
-    "static/js/main.3021388e.chunk.js"
+    "static/js/main.38b9a015.chunk.js"
   ]
 }
